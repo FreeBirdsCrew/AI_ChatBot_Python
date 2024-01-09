@@ -1,4 +1,4 @@
-from chatterbot import ChatBot
+hrom chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 
 # Create a new chat bot named Charlie
@@ -6,7 +6,7 @@ chatbot = ChatBot('FreeBirdsBot')
 
 trainer = ListTrainer(chatbot)
 
-trainer.train(['Hi','Hello','How are you?','I am fine and You?','Greate','What are you Doing?','nothing just roaming around.'])
+trainer.train(['Hi','Hello','How are you?','I am fine &  You?','Greate','What are you Doing?','Just diving into the world of AI.'])
 
 while True:
 	input_data = input("You- ")
