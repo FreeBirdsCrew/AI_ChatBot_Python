@@ -1,4 +1,4 @@
-hrom chatterbot import ChatBot
+from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 
 # Create a new chat bot named Charlie
